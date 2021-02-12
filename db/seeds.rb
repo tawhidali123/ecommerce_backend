@@ -12,22 +12,54 @@ products = [
         description: "shirt description",
         price: 30.99,
         image: "https://i.pinimg.com/originals/ab/b0/17/abb01771aa9f279b84c4ea24db0d3f90.jpg",
-        size: "L",
-        gender: "Men",
-        amount: 12,
+        quantity: 35,
+        small: 5,
+        medium: 8,
+        large: 9,
+        xl: 9,
+        xxl: 4,
     },
     {
         name: "og lv shirt",
         description: "shirt description",
         price: 10.99,
         image: "https://i.pinimg.com/originals/ab/b0/17/abb01771aa9f279b84c4ea24db0d3f90.jpg",
-        size: "L",
-        gender: "Men",
-        amount: 12,
+        quantity: 35,
+        small: 5,
+        medium: 8,
+        large: 9,
+        xl: 9,
+        xxl: 4,
+    },
+    {
+        name: "Super Shirt",
+        description: "shirt description",
+        price: 20.99,
+        image: "https://i.pinimg.com/originals/ab/b0/17/abb01771aa9f279b84c4ea24db0d3f90.jpg",
+        quantity: 35,
+        small: 5,
+        medium: 8,
+        large: 9,
+        xl: 9,
+        xxl: 4,
+    },
+    {
+        name: "DragonBall Z",
+        description: "shirt description",
+        price: 11.99,
+        image: "https://i.pinimg.com/originals/ab/b0/17/abb01771aa9f279b84c4ea24db0d3f90.jpg",
+        quantity: 35,
+        small: 5,
+        medium: 8,
+        large: 9,
+        xl: 9,
+        xxl: 4,
     },
 ]
+
 
 Product.delete_all
 
 Product.create(products)
+
 

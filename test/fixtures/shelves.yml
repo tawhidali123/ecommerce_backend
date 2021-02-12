@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  small: 1
+  med: 1
+  lg: 1
+  xl: 1
+  xxl: 1
+  product: one
+
+two:
+  small: 1
+  med: 1
+  lg: 1
+  xl: 1
+  xxl: 1
+  product: two
