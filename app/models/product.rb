@@ -1,3 +1,3 @@
 class Product < ApplicationRecord
-    has_one :shelf
+    belongs_to :order
 end
